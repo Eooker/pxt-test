@@ -1,23 +1,23 @@
 {
     "name": "pxt-test",
-    "version": "0.1.0",
-    "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*"
     },
     "files": [
+        ".vscode/settings.json",
+        ".vscode/tasks.json",
         "README.md",
+        "_locales/pxt-test-jsdoc-strings.json",
+        "_locales/pxt-test-strings.json",
+        "_locales/zh-CN/pxt-test-jsdoc-strings.json",
+        "_locales/zh-CN/pxt-test-strings.json",
         "main.blocks",
-        "main.ts"
-		"_locales/zh-CN/pxt-test-strings.json"
-		"_locales/zh-CN/pxt-test-jsdoc-strings.json"
+        "main.ts",
+        "package-lock.json",
+        "test.ts",
+        "tsconfig.json"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": true,
     "targetVersions": {
         "target": "4.0.11",
         "targetId": "microbit"
