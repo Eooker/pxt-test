@@ -11,6 +11,8 @@
         "README.md",
         "main.blocks",
         "main.ts"
+		"_locales/zh-CN/pxt-test-strings.json"
+		"_locales/zh-CN/pxt-test-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
